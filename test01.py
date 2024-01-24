@@ -1,7 +1,5 @@
 # -*- coding: utf-8 -*-
 
-pip install pandas transformers streamlit
-
 import pandas as pd
 from transformers import pipeline
 import streamlit as st
