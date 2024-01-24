@@ -7,7 +7,7 @@ from transformers import pipeline
 import streamlit as st
 
 # Load the dataset
-dataset_path = "path/to/your/dataset.csv"  # replace with the actual path
+dataset_path = "car-reviews.csv"  # replace with the actual path
 df = pd.read_csv(dataset_path)
 
 # Display the dataset
